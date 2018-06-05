@@ -64,7 +64,7 @@ class Flight extends Component {
           <img src={firstEl.logo} alt="Company Logo"/>
         }
         {isLoadedCompanyNamesSearch && !firstEl &&
-          <p className="error">Couldn't find company logo :-(</p>
+          <p className="error">Could not find company logo :-(</p>
         }
         <Button onClick={this.onBack} className="backButton">Back</Button>
       </div>
