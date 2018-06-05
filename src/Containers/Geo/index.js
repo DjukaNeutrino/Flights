@@ -108,7 +108,7 @@ class Geo extends Component {
     flights.sort(function(a,b) {return (a.Alt > b.Alt) ? -1 : ((b.Alt > a.Alt) ? 1 : 0);} );
     return (
       <div>
-        {!isLoadedFlights && <div className="loaderHolder" ><img src={earthLoader}/></div>}
+        {!isLoadedFlights && <div className="loaderHolder" ><img src={earthLoader} alt=""/></div>}
         {error && <div className="errorHolder">{error.message}</div>}
         <ul className="list">
           {flights.length > 0 && flights.map( (item) => {

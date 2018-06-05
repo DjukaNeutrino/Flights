@@ -43,6 +43,26 @@ body {
       background-color: rgba(173, 216, 230, 0.5);
       border-radius: 10px;
       text-align: left;
+
+      .backButton{
+        float: right;
+        margin-top: 30px;
+        border-radius: 5px;
+        margin-bottom: 0;
+      }
+
+      img{
+        display: block;
+      }
+
+      .searching{
+        color: darkgreen;
+      }
+
+      .error{
+        color: darkred;
+      }
+
     }
 
 

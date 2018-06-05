@@ -32,6 +32,17 @@ body {
       background-color: rgba(173, 216, 230, 0.5);
       border-radius: 10px;
       text-align: left; }
+      .App .App-content .flightDetailsHolder .backButton {
+        float: right;
+        margin-top: 30px;
+        border-radius: 5px;
+        margin-bottom: 0; }
+      .App .App-content .flightDetailsHolder img {
+        display: block; }
+      .App .App-content .flightDetailsHolder .searching {
+        color: darkgreen; }
+      .App .App-content .flightDetailsHolder .error {
+        color: darkred; }
     .App .App-content .list-item {
       display: block;
       padding: 20px;
