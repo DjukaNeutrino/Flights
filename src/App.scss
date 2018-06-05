@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+  ul{
+    list-style-type: none;
+    margin-left: 0;
+  }
+}
+
+.App {
+  text-align: center;
+
+  .App-header {
+    background-color: #1d1d1d;
+    height: 100px;
+    padding: 20px;
+    color: white;
+  }
+
+  .App-content {
+    margin: 60px 30px;
+    min-height: 80vh;
+
+    .loaderHolder{
+      width: 500px;
+      margin:0 auto;
+    }
+
+    .errorHolder{
+      background:darkred;
+      color:white;
+      margin: 15px auto;
+      padding: 10px;
+      width:300px;
+      border-radius: 10px;
+    }
+
+    .flightDetailsHolder{
+      border:1px solid darkgrey;
+      padding: 20px;
+      background-color: rgba(173, 216, 230, 0.5);
+      border-radius: 10px;
+      text-align: left;
+    }
+
+
+    .list-item{
+      display: block;
+      padding: 20px;
+      clear: both;
+      text-align: left;
+      border:1px solid darkgrey;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      background-color: rgba(173, 216, 230, 0.5);
+      transition: all 0.5s ease;
+      cursor:pointer;
+
+      &:hover{
+        background-color: rgba(173, 216, 230, 1)
+      }
+
+      img{
+        width:70px;
+        height: auto;
+        display: inline-block;
+        margin:0;
+      }
+
+      img.reverse{
+        transform: scaleX(-1);
+      }
+
+    }
+
+  }
+
+  .App-footer {
+    background-color: #1d1d1d;
+    padding: 20px;
+    color: white;
+
+    .footerText{
+      margin-bottom: 0;
+    }
+  }
+
+}
+
+
